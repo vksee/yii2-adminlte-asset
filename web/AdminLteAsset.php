@@ -43,7 +43,7 @@ class AdminLteAsset extends AssetBundle
                 throw new Exception('Invalid skin specified');
             }
 
-            $this->css[] = sprintf('css/skins/%s.min.css', $this->skin);
+            $this->css[] = sprintf('almasaeed2010/adminlte/dist/css/skins/%s.min.css', $this->skin);
         }
 
         parent::init();
