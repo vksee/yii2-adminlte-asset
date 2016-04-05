@@ -17,19 +17,14 @@
     "repositories": [
         {
             "type": "vcs", "url": "https://github.com/vksee/AdminLTE"
-        },
-        {
-            "type": "vcs", "url": "https://github.com/vksee/source-sans-pro"
         }
-        
     ],
     "require": {
         "yiisoft/yii2": "2.*",
         "yiisoft/yii2-bootstrap": "2.*",
         "cebe/yii2-gravatar": "1.*",
         "almasaeed2010/adminlte": "dev-vksee-font-patch",
-        "rmrevin/yii2-fontawesome": "~2.9",
-        "npm-asset/source-sans-pro": "dev-vksee-font-patch"
+        "rmrevin/yii2-fontawesome": "~2.9"
     },
     "autoload": {
         "psr-4": {
