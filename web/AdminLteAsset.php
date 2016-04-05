@@ -10,13 +10,14 @@ use yii\web\AssetBundle;
  */
 class AdminLteAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/almasaeed2010/adminlte/dist';
+    public $sourcePath = '@vendor';
     public $css = [
-        'css/Asource-sans-pro.css',
-        'css/AdminLTE.min.css',
+        'npm/source-sans-pro/source-sans-pro.css',
+        //'almasaeed2010/adminlte/dist/css/source-sans-pro.css',
+        'almasaeed2010/adminlte/dist/css/AdminLTE.min.css',
     ];
     public $js = [
-        'js/app.min.js'
+        'almasaeed2010/adminlte/dist/js/app.min.js'
     ];
     public $depends = [
         'rmrevin\yii\fontawesome\AssetBundle',
